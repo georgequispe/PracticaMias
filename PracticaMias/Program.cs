@@ -55,6 +55,10 @@ namespace PracticaMias
             }
         }
     }
+    //definir una clase abstract en la interface es mejor porque es mas facil de implementar,
+    //y no se pueden crear objetos de la clase abstracta,
+    //pero si se pueden crear objetos de las clases que heredan de la clase abstracta,
+    //y que implementan la interfaz, como Perro, Gato, Pajaro y Arbol.
     public interface IHacerRuido
     {
         void HacerRuido();
